@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(196, 233, 221);
+   
+
+}
+
+.container{
+    width: 100%;
+    margin-top: 40px;
+} 
+
+.img-hero{
+    width: 320px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+
+.card-container{
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    width: 320px;
+    height: 500px;
+
+}
+
+.content-container{
+    padding: 30px;
+}
+
+
+.order-container{
+    
+    margin: 12px 0 12px 0;   
+}
+
+h1{
+
+    font-size: 24px;
+    text-align: center;
+    color: rgb(29, 29, 29);
+    margin-bottom: 20px;
+}
+
+.information{
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 1.3;
+    text-align: center;
+    color: rgb(92, 92, 92);
+    margin-bottom: 20px;
+}
+
+.plan-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan-info-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.price-container{
+    display: flex;
+    
+}
+
+.price{
+    margin-top: 0;
+    color: gray;
+    font-size: 12px;
+}
+
+.music-icon{
+    margin-right: 10px;
+    width: 40px;
+}
+
+.change{
+    display: flex;
+    align-items: center;
+}
+
+.change-a{
+    color: blue;
+}
+
+a{
+    font-size: 14px;
+}
+
+.payment-container{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.payment{
+
+    width: 240px;
+    height: 35px;
+    margin: 20px auto;
+    border-radius: 6px;
+    border: none;
+    background-color: rgb(79, 79, 214);
+    box-shadow: 0px 6px 10px 1px rgba(0,0,0,0.3);
+    color: white;
+    cursor: pointer; 
+
+}
+
+.payment:hover{
+    background-color:rgb(63, 63, 190) ;
+}
+
+.cancel-order{
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+}
+
+.cancel-order:hover{
+    color: rgb(107, 107, 107);
+}
+
+h4{
+    font-size: 15px;
+}
+
+@media screen and (max-width:400px){
+    .card-container{
+        width: 280px;
+    }
+
+    .img-hero{
+        width: 280px;
+    }
+
+    .payment{
+        width: 200px;
+    }
+}
